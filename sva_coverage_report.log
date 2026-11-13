@@ -1,0 +1,68 @@
+Coverage Summary:
+  line      : 49.0% (  25/  51)
+  toggle    : 93.7% (1257/1342)
+  branch    : 82.4% (  28/  34)
+  expr      : 72.9% (  43/  59)
+  fsm_state : 0.0% (   0/   0)
+  fsm_arc   : 0.0% (   0/   0)
+Note: hierarchy report contains collapsed hierarchy paths; it is not precise per-instance coverage.
+Hierarchy Coverage Summary:
+  $unit::rand_mempacket__Vclpkg
+    line      : 100.0% (2/2)
+  std
+    line      : 0.0% (0/1)
+  std::process__Vclpkg
+    line      : 0.0% ( 0/11)
+    branch    : 0.0% ( 0/ 2)
+    expr      : 0.0% ( 0/ 3)
+  std::semaphore__Vclpkg
+    line      : 0.0% (0/7)
+    branch    : 0.0% (0/4)
+    expr      : 0.0% (0/3)
+  tb_dualport_DFFRAM512x32
+    line      : 75.0% (  18/  24)
+    toggle    : 93.7% (1257/1342)
+    branch    : 100.0% (  26/  26)
+    expr      : 81.1% (  43/  53)
+  tb_dualport_DFFRAM512x32.DUT
+    line      : 100.0% (  9/  9)
+    toggle    : 98.2% (925/942)
+    branch    : 100.0% ( 22/ 22)
+    expr      : 89.5% ( 34/ 38)
+  tb_dualport_DFFRAM512x32.DUT.RAM*
+    line      : 100.0% (  1/  1)
+    toggle    : 100.0% (156/156)
+    branch    : 100.0% ( 10/ 10)
+  tb_utils_pkg::testcase__Vclpkg
+    line      : 83.3% (5/6)
+    branch    : 100.0% (2/2)
+Design Unit Coverage Summary:
+  DFFRAM256x32
+    line      : 100.0% (  1/  1)
+    toggle    : 100.0% (156/156)
+    branch    : 100.0% ( 10/ 10)
+  dualport_DFFRAM512x32
+    line      : 100.0% (  8/  8)
+    toggle    : 97.8% (769/786)
+    branch    : 100.0% ( 12/ 12)
+    expr      : 89.5% ( 34/ 38)
+  process
+    line      : 0.0% ( 0/11)
+    branch    : 0.0% ( 0/ 2)
+    expr      : 0.0% ( 0/ 3)
+  rand_mempacket
+    line      : 100.0% (2/2)
+  semaphore
+    line      : 0.0% (0/7)
+    branch    : 0.0% (0/4)
+    expr      : 0.0% (0/3)
+  std
+    line      : 0.0% (0/1)
+  tb_dualport_DFFRAM512x32
+    line      : 60.0% (  9/ 15)
+    toggle    : 83.0% (332/400)
+    branch    : 100.0% (  4/  4)
+    expr      : 60.0% (  9/ 15)
+  testcase
+    line      : 83.3% (5/6)
+    branch    : 100.0% (2/2)

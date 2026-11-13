@@ -1,0 +1,54 @@
+[*]
+[*] GTKWave Analyzer v4.0.0-prealpha (132a086) (w)1999-2022 BSI
+[*] Thu Nov 12 00:01:21 2026
+[*]
+[dumpfile] "/home/whirck/Desktop/Sources/2026_Fall/class/CP470_OpenS_ASIC/02_labs/l3-wishbone/tests/tb_dualport_DFFRAM512x32/tb_dualport_DFFRAM512x32.vcd"
+[dumpfile_mtime] "Wed Nov 11 23:53:00 2026"
+[dumpfile_size] 79624
+[savefile] "/home/whirck/Desktop/Sources/2026_Fall/class/CP470_OpenS_ASIC/02_labs/l3-wishbone/tests/tb_dualport_DFFRAM512x32/wavesave.gtkw"
+[timestart] 3853000
+[size] 1920 1043
+[pos] -27 -24
+*-15.300000 56790 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] tb_dualport_DFFRAM512x32.
+[treeopen] tb_dualport_DFFRAM512x32.pA_in.
+[treeopen] tb_dualport_DFFRAM512x32.pB_in.
+[sst_width] 278
+[signals_width] 280
+[sst_expanded] 1
+[sst_vpaned_height] 333
+@22
+tb_dualport_DFFRAM512x32.tnum[31:0]
+@28
+tb_dualport_DFFRAM512x32.resetn
+tb_dualport_DFFRAM512x32.clk
+@200
+-
+@28
+tb_dualport_DFFRAM512x32.pA_operation[1:0]
+tb_dualport_DFFRAM512x32.pA_in.addr.block
+@22
+tb_dualport_DFFRAM512x32.pA_in.addr.addr[7:0]
+@28
+tb_dualport_DFFRAM512x32.pA_in.addr.byte_offset[1:0]
+@22
+tb_dualport_DFFRAM512x32.pA_in.din[31:0]
+@29
+tb_dualport_DFFRAM512x32.pA_out.stall
+@22
+tb_dualport_DFFRAM512x32.pA_out.dout[31:0]
+@200
+-
+@28
+tb_dualport_DFFRAM512x32.pB_operation[1:0]
+@22
+tb_dualport_DFFRAM512x32.pB_in.din[31:0]
+@28
+tb_dualport_DFFRAM512x32.pB_in.addr.block
+@22
+tb_dualport_DFFRAM512x32.pB_in.addr.addr[7:0]
+tb_dualport_DFFRAM512x32.pB_out.dout[31:0]
+@28
+tb_dualport_DFFRAM512x32.pB_out.stall
+[pattern_trace] 1
+[pattern_trace] 0

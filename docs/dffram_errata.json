@@ -1,0 +1,61 @@
+
+{ 	signal:
+  	[
+      {
+        name: 'clk', 				
+        wave: 'P.........',
+      	
+      },
+      {
+        name: 'EN0', 		
+        wave: '0..1...0..', 
+        node: ''
+      },
+      {
+        name: 'A0', 		
+        wave: 'x..3456x..', 
+        data: ["A","B", "C", "D",],
+        node: ''
+      },
+      {
+        name: 'WE0', 		
+        wave: 'x..2222x..', 
+        data: ["0xF","0xF", "0x0", "0x0"],
+        node: ''
+      },
+      {
+        name: 'Di0', 		
+        wave: 'x..34x....', 
+        data: ["newA","newB"],
+        node: ''
+      },
+      {
+        name: 'Do0', 		
+        wave: '2...34562.', 
+        data: ["32'd0","oldA", "oldB", "oldC", "oldD", "32'd0"],
+        node: ''
+      },
+      {
+        name: 'operation', 		
+        wave: '9..77779..', 
+        data: ["DISABLED","WR", "WR", "RE", "RE", "DISBALED"],
+        node: ''
+      },
+	],
+  
+  config: {hscale:2},
+  
+  head:
+  {
+    text: "DFFRAM Block",
+    tick:0
+  },
+  
+  "edge":
+  [
+  	"a~b", "c~d", "e~f", "g~h", "i~j", "k~l"
+  ],
+    
+	
+}
+
