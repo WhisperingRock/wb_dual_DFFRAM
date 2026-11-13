@@ -1,7 +1,7 @@
 ---
 description: Open-Source ASIC project for a wishbone-compatible dual port 2kb DFFRAM
 author: WhisperingRock
-tags: ["open-source", "asic", "verilator", "icarus", "yosys", "librelane", ,"openroad","DFFRAM", "wishbone"]
+tags: ["open-source", "asic", "verilator", "icarus", "yosys", "librelane", "openroad", "DFFRAM", "wishbone"]
 ---
 
 ## Note
